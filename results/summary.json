@@ -1,0 +1,47 @@
+{
+  "users": 400,
+  "transactions": 1400,
+  "products": 12,
+  "top_pair_support": {
+    "Headphones|Laptop": 0.19,
+    "Headphones|Shoes": 0.155,
+    "Headphones|T-Shirt": 0.145,
+    "Headphones|Tablet": 0.1425,
+    "Laptop|Shoes": 0.1325,
+    "Headphones|Kettle": 0.1175,
+    "Kettle|Laptop": 0.115,
+    "Bike|Headphones": 0.11,
+    "Laptop|T-Shirt": 0.11,
+    "Chair|Headphones": 0.1075
+  },
+  "example_recommendations": {
+    "1": [
+      "Headphones",
+      "Shoes",
+      "Kettle"
+    ],
+    "2": [
+      "Shoes",
+      "T-Shirt",
+      "Jacket"
+    ],
+    "3": [
+      "Headphones",
+      "Kettle",
+      "Jacket"
+    ],
+    "10": [
+      "Headphones",
+      "Laptop",
+      "Shoes"
+    ],
+    "20": [
+      "Laptop",
+      "Shoes",
+      "T-Shirt"
+    ]
+  },
+  "precision_at_3_holdout": 0.4503,
+  "holdout_users_evaluated": 302,
+  "hits": 136
+}
